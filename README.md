@@ -1,5 +1,9 @@
 # dsh-wb —— 让 DeepSeek Harness 和 WorkBuddy 互相认识
 
+![release](https://img.shields.io/github/v/release/YE-ZINAN/dsh-wb?label=release&color=00d4ff)
+![license](https://img.shields.io/github/license/YE-ZINAN/dsh-wb?color=8b5cf6)
+![platform](https://img.shields.io/badge/platform-Windows-0078d4)
+
 一句话：装了它，你在 dsh 里就能**看到 WorkBuddy 记了什么、让它干活、跟它对话，甚至直接用 dsh 操作 WorkBuddy 的界面**。
 
 ---
@@ -38,11 +42,32 @@ WorkBuddy 和 dsh 本来是两套各干各的 AI 工具：各聊各的、各记�
 
 ## 安装
 
-1. 把 `dsh-wb` 文件夹放到任意位置（例如 `D:\plugins\dsh-wb`）
-2. 在 dsh 的插件管理里把它当本地插件装上
-3. **刷新一次 dsh 页面**（F5）
+三种方式，挑一种：
 
-装完左栏会多一个 WB 图标。
+**① 一条地址装（推荐，最省事，不需要任何账号）**
+
+在 dsh 的插件管理里「从地址安装」，粘这个：
+
+```
+https://github.com/YE-ZINAN/dsh-wb/releases/download/v1.0.0/dsh-wb-1.0.0.tgz
+```
+
+（它就是个 npm 包，dsh 会自动下载依赖装好。）
+
+**② 从 GitHub 仓库直接装**
+
+```
+github:YE-ZINAN/dsh-wb
+```
+
+**③ 本地文件夹**
+
+把仓库下载下来，在插件管理里选那个文件夹。
+
+> **npm**：包名 `dsh-wb` 已确认可用，但本机还没登录 npm（`npm login` 只能你本人做）。
+> 你登录后任一时刻执行 `npm publish` 就能发上去 —— 之后大家用 `dsh-wb` 这个包名装即可。
+
+装完 **刷新一次 dsh 页面**（F5），左栏会多一个 WB 图标。
 
 ---
 
