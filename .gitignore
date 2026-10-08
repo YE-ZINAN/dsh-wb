@@ -1,0 +1,6 @@
+node_modules/
+*.log
+*.bak-dshsync
+*.bak
+out/
+docs/shots/*-full.png

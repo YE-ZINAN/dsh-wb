@@ -1,0 +1,48 @@
+{
+  "name": "dsh-wb",
+  "version": "1.0.0",
+  "description": "WorkBuddy 四件套合并：记忆/技能同步 + 无界面遥控 + 界面驱动（CDP）+ 对话面板。25 个工具 / 15 条路由 / 1 个面板。",
+  "type": "module",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "workbuddy",
+    "codebuddy",
+    "cdp",
+    "automation"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "domains/**/*.js",
+    "lib/**/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs/*.md",
+    "README.md"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YE-ZINAN/dsh-wb.git"
+  },
+  "homepage": "https://github.com/YE-ZINAN/dsh-wb#readme"
+}

@@ -1,0 +1,6 @@
+# dsh-wb bundle：WorkBuddy 四件套合并为一条插件条目。
+# 配置按域分区；全部省略即用各域默认值。
+- insert:
+    - id: dsh-wb
+      name: dsh-wb
+      config: {}
