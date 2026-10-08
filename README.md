@@ -19,6 +19,12 @@ WorkBuddy 和 dsh 本来是两套各干各的 AI 工具：各聊各的、各记�
 
 ![在 WorkBuddy 里跑的对话](docs/shots/wb-app.png)
 
+上图是 **WorkBuddy 那边**的样子 —— 对话真的长在它的界面里。
+
+下图是 **dsh 这边**的面板：左边选会话、中间看内容、上面切模型（带积分倍率）。
+
+![dsh 里的 WB 对话面板](docs/shots/dsh-panel.png)
+
 ---
 
 ## 你需要什么
