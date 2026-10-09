@@ -3,4 +3,5 @@ node_modules/
 *.bak-dshsync
 *.bak
 out/
+dist/
 docs/shots/*-full.png

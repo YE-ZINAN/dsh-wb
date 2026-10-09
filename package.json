@@ -37,8 +37,13 @@
     "cordis.patch.yml",
     "locale/*.json",
     "docs/*.md",
+    "docs/shots/*.png",
+    "screenshots.json",
     "README.md"
   ],
+  "engines": {
+    "node": ">=20"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
